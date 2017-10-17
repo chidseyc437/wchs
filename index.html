@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<title>index.html</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body img{
+	padding-left: 0em;
+}
+.img.blackline {
+}
+.chs {
+	padding-left: 25em;
+}
+.p {
+	font-size: 7em;
+	padding-left: 5em;
+	padding-bottom: 0px;
+}
+body table {
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bolder;
+}
+.StaffTable {
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/andika:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<img src="CHSNEWST.png" alt="" width="1450" height="250" class="chs"/>
+
+<img src="Blackline.png" width="1895" height="28" class="img.blackline"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<iframe width="600" height="340" frameborder="0" id="youtube_video" style="text-align: center" allowfullscreen></iframe>
+
+<script>
+var channelID = "UCQ8Lzvb0mSz0p5XAmZoW1zw";
+$.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3D'+channelID, function(data) {
+   var link = data.items[0].link;
+   var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
+});
+</script>
+
+<img src="Blackline.png" width="1895" height="28" alt=""/> 
+
+<p class="p">WCHS STAFF</p>
+<table width="200" border="1" align="center" class="StaffTable">
+  <tbody>
+    <tr>
+      <td><img src="WCHSPIC1.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC2.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC3.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC4.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC5.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC6.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC7.jpg" width="125" height="225" alt=""/></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> Justine McClimont</td>
+      <td>&nbsp; &nbsp; &nbsp;  Ben Hale<span style="text-align: center"></span></td>
+      <td style="text-align: center">&nbsp; &nbsp;Tim Brown </td>
+      <td style="text-align: center"> Haven McClure</td>
+      <td><p> &nbsp;   Allie <span style="text-align: center"></span>Fisher </p></td>
+      <td style="text-align: center">Joshua Dunn </td>
+      <td style="text-align: center">Ethan Lopez </td>
+    </tr>
+    </tbody>
+</table>
+<table width="200" border="1" align="center" id="StaffTable2">
+  <tbody>
+    <tr>
+      <td><img src="WCHSPIC8.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC10.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC11.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC12.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC13.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC14.jpg" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC15.JPG" width="125" height="225" alt=""/></td>
+      <td><img src="WCHSPIC16.jpg" width="125" height="225" alt=""/></td>
+    </tr>
+    <tr>
+      <td><p style="text-align: center">Braden Edmunds&nbsp;</p></td>
+      <td><p style="text-align: center">Michael Gill&nbsp;</p></td>
+      <td><p style="text-align: center">Amanda Krom&nbsp;</p></td>
+      <td><p style="text-align: center">Jessica Jones&nbsp;</p></td>
+      <td><p style="text-align: center">Lillian <span style="text-align: center"></span><span style="text-align: left"></span><span style="text-align: justify"></span><span style="text-align: right"></span><span style="text-align: center"></span>Shaw&nbsp;</p></td>
+      <td><p style="text-align: center">Miles Scott&nbsp;</p></td>
+      <td><p style="text-align: center">Abigail Graham&nbsp;</p></td>
+      <td><p style="text-align: center">Shyanne Waller&nbsp;</p></td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://www.baynews9.com/content/news/baynews9/sports/varsity-reporter/citrus-high-school.html">
+
+<img src="chsspectrumsports.jpg" alt="" width="550" height="124" id="spectrum"/></a>
+
+
+
+<a href="https://fspa.wildapricot.org/"><img src="fspa.png" width="550" height="124" alt=""/></a>
+
+
+
+
+
+<p><a href="http://facebook.com/chswchsnews">FaceBook</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
